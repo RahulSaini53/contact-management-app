@@ -67,21 +67,20 @@ cd contact-management-app</code></pre>
   ├── src/
   │   ├── app/
   │   │   ├── store.ts
-  │   │   └── ...
+  │   ├── api/
+  │   │   ├── coviddataApi.ts
   │   ├── components/
-  │   │   ├── ContactForm.tsx
+  │   │   ├── AddContactForm.tsx
   │   │   ├── ContactsList.tsx
-  │   │   ├── Header.tsx
-  │   │   ├── Sidebar.tsx
+  │   │   ├── header.tsx
+  │   │   ├── footer.tsx
+  │   │   ├── sidebar.tsx
   │   │   ├── CasesChart.tsx
   │   │   └── CountriesMap.tsx
   │   ├── features/
   │   │   ├── contacts/
-  │   │   │   ├── contactsSlice.ts
-  │   │   │   └── ...
-  │   │   └── sidebar/
-  │   │       ├── sidebarSlice.ts
-  │   │       └── ...
+  │   │        ├── contactsSlice.ts
+  │   │   
   │   ├── App.tsx
   │   ├── index.tsx
   │   └── ...
@@ -145,5 +144,5 @@ cd contact-management-app</code></pre>
 
 <h3>Contact</h3>
 
-<p>For any inquiries or issues, please reach out to [your email address].</p>
+<p>For any inquiries or issues, please reach out to <a href= "mailto: rksckn123@gmail.com"> rksckn123@gmail.com  </a></p>
 
