@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+@layer components{
+  .mygrid{
+    display: grid;
+    grid-template-columns:auto 1fr ;
+    
+  }
+}
+
+@tailwind utilities;
